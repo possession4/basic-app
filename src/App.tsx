@@ -1,4 +1,4 @@
-import React from 'react';
+import Content from './Content';
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,6 +19,7 @@ function App() {
           Learn React
         </a>
       </header>
+      <Content name="Brittny" eyeColor="dark brown" />
     </div>
   );
 }
